@@ -1,0 +1,7 @@
+<div class="widget-account">
+    <div class="user">
+        <div>{{ user.name }}</div>
+        <a (click)="logOut()">Logout</a>
+    </div>
+    <img *ngIf="user.photoUrl" [src]="user.photoUrl">
+</div>

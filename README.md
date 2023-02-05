@@ -1,27 +1,50 @@
-# ProductFilter
+# Rxjx Operators
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0.
+## Flattening operators
+https://medium.com/@shairez/a-super-ninja-trick-to-learn-rxjss-switchmap-mergemap-concatmap-and-exhaustmap-forever-88e178a75f1b
+### concatMap
+<!-- YOUTUBE:START -->
+- [How to use concatMap in Angular](https://www.youtube.com/watch?v=gkWhrqePiS4)
+<!-- YOUTUBE:END -->
 
-## Development server
+### exhaustMap
+<!-- YOUTUBE:START -->
+- [exhaustMap operator in Rxjs | exhaustMap in Angular](https://www.youtube.com/watch?v=UZ3a17cuN1o)
+<!-- YOUTUBE:END -->
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Search Box
 
-## Code scaffolding
+Rxjs operator's used : 
+1. fromEvent - catch the event method of input field
+2. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Transfrom data
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<details>
+  <summary>:zap: GitHub Stats</summary>
 
-## Running unit tests
+  <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=codeSTACKr&show_icons=true&hide_border=true" />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+</details>
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### 📺 DebounceTime & DistinctUntilChanged
 
-## Further help
+<!-- YOUTUBE:START -->
+- [DebounceTime & DistinctUntilChanged in Rxjs in Hindi | Rxjs Tutorial in Hindi (2020)](https://www.youtube.com/watch?v=ET2UPbsgPL8)
+<!-- YOUTUBE:END -->
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+### 📕 Referral Written Tutorials
+
+<!-- BLOG-POST-LIST:START -->
+- [Interactive diagrams of Rx Observables](https://rxmarbles.com/)
+- [Angular: Use shareReplay to Cache HTTP Responses From Downstream Services](https://careydevelopment.us/blog/angular-use-sharereplay-to-cache-http-responses-from-downstream-services)
+<!-- BLOG-POST-LIST:END -->
+
+
+---

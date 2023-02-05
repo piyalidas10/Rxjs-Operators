@@ -1,0 +1,10 @@
+<div class="container">
+    <div>
+        <h3>Male Users</h3>
+        <p *ngFor="let maleUser of maleUsers$ | async">{{maleUser.first_name}} {{maleUser.last_name}}</p>
+    </div>
+    <div>
+        <h3>Female Users</h3>
+        <p *ngFor="let femaleUser of femaleUsers$ | async">{{femaleUser.first_name}} {{femaleUser.last_name}}</p>
+    </div>
+</div>

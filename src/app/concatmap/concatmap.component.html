@@ -1,0 +1,27 @@
+<form [formGroup]="UpdateForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" formControlName="name">
+    <!-- error block -->
+    <div class="error" *ngIf="submitted && UpdateForm.controls.name.errors?.required">
+      <sup>*</sup>Please enter your name
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="salary">Salary</label>
+    <input type="text" class="form-control" id="salary" formControlName="salary">
+    <!-- error block -->
+    <div class="error" *ngIf="submitted && UpdateForm.controls.salary.errors?.required">
+        <sup>*</sup>Please enter your salary
+      </div>
+  </div>
+  <div class="form-group">
+    <label for="age">Age</label>
+    <input type="text" class="form-control" id="age" formControlName="age">
+    <!-- error block -->
+    <div class="error" *ngIf="submitted && UpdateForm.controls.age.errors?.required">
+        <sup>*</sup>Please enter your age
+      </div>
+  </div>
+  <button type="submit">Update Record</button>
+</form>

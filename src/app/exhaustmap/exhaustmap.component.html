@@ -1,0 +1,29 @@
+<h1>exhaustMap</h1>
+<form [formGroup]="UpdateForm">
+    <div class="form-group">
+      <label for="title">title</label>
+      <input type="text" class="form-control" id="title" formControlName="title">
+      <!-- error block -->
+      <div class="error" *ngIf="submitted && UpdateForm.controls.title.errors?.required">
+        <sup>*</sup>Please enter your title
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="body">body</label>
+      <input type="text" class="form-control" id="body" formControlName="body">
+      <!-- error block -->
+      <div class="error" *ngIf="submitted && UpdateForm.controls.body.errors?.required">
+          <sup>*</sup>Please enter your body
+        </div>
+    </div>
+    <div class="form-group">
+      <label for="userId">userId</label>
+      <input type="text" class="form-control" id="userId" formControlName="userId">
+      <!-- error block -->
+      <div class="error" *ngIf="submitted && UpdateForm.controls.userId.errors?.required">
+          <sup>*</sup>Please enter your userId
+        </div>
+    </div>
+    <button type="button" (click)="btnSub$.next(true)">Add Record</button>
+  </form>
+  
